@@ -21,7 +21,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showAlert:) name:kCSNotificationExceptionRaise object:nil];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
         //
-        NSString *str1 = @"";//nil;
+        NSString *str1 = nil;
         NSArray *arr = @[str1];
 //        str1 = nil;
         dispatch_sync(dispatch_get_main_queue(), ^{
