@@ -1,0 +1,6 @@
+framework module CSLog {
+  umbrella header "CSLog.h"
+
+  export *
+  module * { export * }
+}
